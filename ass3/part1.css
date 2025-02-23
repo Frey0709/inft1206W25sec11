@@ -3,10 +3,10 @@ body {
   }
   
   h1 {
-    color: #375e97;
+    color: #ee92b0;
     font-size: 2em;
     font-family: Georgia, "Times New Roman", Times, serif;
-    border-bottom: 1px solid #375e97;
+    border-bottom: 8px dotted #375e97;
   }
   
   h2 {
@@ -16,6 +16,23 @@ body {
   .job-title {
     color: #999999;
     font-weight: bold;
+  }
+
+  ul {
+    border: 4px solid #6a0080;
+    background-color: #ebebeb;
+    padding: 15px;
+    width: fit-content;
+    list-style-type: none;
+  }
+
+  a[href^="http"] {
+    color: #ff5722;
+  }
+
+  a[href^="mailto"] {
+    color: #28752b !important;
+
   }
   
   a:link,
