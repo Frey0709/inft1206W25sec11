@@ -18,13 +18,14 @@ body {
     font-weight: bold;
   }
 
-  ul {
+  .contact {
     border: 4px solid #6a0080;
     background-color: #ebebeb;
     padding: 15px;
     width: fit-content;
     list-style-type: none;
   }
+
 
   a[href^="http"] {
     color: #ff5722;
